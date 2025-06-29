@@ -232,7 +232,7 @@ SiliconFlow API URL.
 
 ## Requirements
 
-NodeJS >= 18, Docker >= 20
+NodeJS >= 20, Docker >= 20
 
 ## Development
 
