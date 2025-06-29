@@ -19,13 +19,6 @@
 - Automatically compresses chat history to support long conversations while also saving your tokens
 
 
-## Get Started
-
-1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
-2. Click
-   [![Deploy with Vercel](https://vercel.com/new/clone?repository-url=https://https://github.com/Rixy-Ai&env=OPENAI_API_KEY&env=CODE&project-name=rixychat&repository-name=RixyChat), remember that `CODE` is your page password;
-3. Enjoy :)
-
 ### Manually Updating Code
 
 If you want to update instantly, you can check out the [GitHub documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize a forked project with upstream code.
