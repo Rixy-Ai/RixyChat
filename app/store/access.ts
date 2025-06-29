@@ -143,7 +143,7 @@ const DEFAULT_ACCESS_STATE = {
   visionModels: "",
 
   // tts config
-  edgeTTSVoiceName: "zh-CN-YunxiNeural",
+  edgeTTSVoiceName: "en-US-YunxiNeural",
 };
 
 export const useAccessStore = createPersistStore(

@@ -1,9 +1,9 @@
-version: "3.9"
+version: "1.0"
 services:
-  chatgpt-next-web:
+  rixychat:
     profiles: [ "no-proxy" ]
-    container_name: chatgpt-next-web
-    image: yidadaa/chatgpt-next-web
+    container_name: rixychat
+    image: rixy-ai/rixychat
     ports:
       - 3000:3000
     environment:
@@ -18,10 +18,10 @@ services:
       - DISABLE_FAST_LINK=$DISABLE_FAST_LINK
       - OPENAI_SB=$OPENAI_SB
 
-  chatgpt-next-web-proxy:
+  rixychat-proxy:
     profiles: [ "proxy" ]
-    container_name: chatgpt-next-web-proxy
-    image: yidadaa/chatgpt-next-web
+    container_name: rixychat-proxy
+    image: rixy-ai/rixychat
     ports:
       - 3000:3000
     environment:
